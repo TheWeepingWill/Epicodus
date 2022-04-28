@@ -38,16 +38,17 @@ end
 
 def clock_angle(time)
 	angle = hour_angle(time) - minute_angle(time)
-	if angle > 180 
-		smallest_angle = 360 - angle 
+	if angle.abs > 180 
+		return "#{360 - angle.abs}° between the Hour and Minute hands!"
 	else 
-		smallest_angle = angle 
+		return "#{angle}° between the Hour and Minute hands!"
 	end
-	puts "#{smallest_angle}° between the Hour and Minute hands!"
+	
 end
 
 
-time = '12:01'
+puts "Input a time!"
 
+time = gets.strip
 p clock_angle(time)
 

@@ -34,6 +34,8 @@ class String
     end
 end
 
+puts "Enter any word or phrase!"
+input = gets.strip
 
-
+puts  input.leetspeak
 

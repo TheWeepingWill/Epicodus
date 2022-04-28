@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require '/Users/theweepingwill/repos/epicodus/leet_speak/leet_speak.rb'
+require './leet_speak.rb'
 require 'rack/test'
 
 
