@@ -29,7 +29,7 @@ class Integer
 		2 => "two",
 		1 => "one"
 	}
-	LADDER = { 
+	SCALE = { 
 		100 => "hundred",
 		1000 => "thousand", 
 		1000000 => "million",
@@ -48,12 +48,12 @@ class Integer
 				end
 
 			elsif self >= 100 
-				LADDER.each do  |rung, word_rung|
-					next if rung == 100 && self/rung >= 10 || self/rung > 999
-					if self%rung == 0
-						return "#{(self/rung).numbers_to_words} #{LADDER.fetch(rung)}"
+				SCALE.each do  |scale, scale_rung|
+					next if scale == 100 && self/scale >= 10 || self/scale > 999
+					if self%scale == 0
+						return "#{(self/scale).numbers_to_words} #{SCALE.fetch(scale)}"
 					else
-						return "#{(self/rung).numbers_to_words} #{LADDER.fetch(rung)} #{(self%rung).numbers_to_words}"
+						return "#{(self/scale).numbers_to_words} #{SCALE.fetch(scale)} #{(self%scale).numbers_to_words}"
 					end
 				end
 			end

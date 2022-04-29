@@ -1,14 +1,16 @@
 class RPS 
-	def wins?(hand1, hand2)
-		return false if hand1 == hand2
+	def outcome(hand1, hand2)
+		return "tie" if hand1 == hand2
 
-
-		if hand1 == "scissors" 
-			false
-		elsif hand1 == "rock" && hand2 == "paper"
-			false
-		else 
+		
+		if hand1 == 'scissors' && hand2 == 'paper'
 			true
+		elsif hand1 == 'rock' && hand2 == 'scissors'
+			true
+		elsif hand1 == 'paper' && hand2 == "rock"
+			true
+		else 
+			false
 		end
 	end
 end
