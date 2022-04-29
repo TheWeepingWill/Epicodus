@@ -1,3 +1,4 @@
+# frozen_string_literal: true 
 class Game
 	def human_hand
         gets.to_s.downcase.strip
