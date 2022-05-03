@@ -50,6 +50,5 @@ puts "Input a time!"
 time = gets.strip.gsub(/[:;',\/.]/, ".").to_f
 # p time.class
 p clock_angle(time)
-p "hour angle #{hour_angle(time)}"
-p "minute angle #{minute_angle(time)}"
+
 
