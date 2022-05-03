@@ -4,13 +4,16 @@
 
 ## Week One: TDD With Ruby 
    ### Installation instructions 
-   `git clone https://github.com/TheWeepingWill/Epicodus.git` 
+   Run `git clone https://github.com/TheWeepingWill/Epicodus.git` 
+   in a directory of choice
+
+   `cd Epicodus` 
 
    `bundle install`
 
    ### User Instructions
    All projects excepting "Ruby Project Creator" are run in
-   universal fashion.
+   universal fashion
 
    1: Cd into the directory of the desired day 
 
