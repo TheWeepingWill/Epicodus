@@ -11,7 +11,7 @@ class RPSGame < Game
 	NAME = ['Stephen', 'William', 'Caleb', 'John', 'Braden']
 
 	def initialize
-		puts "Lets play Rock Paper Scissors!"
+		puts 'Lets play Rock Paper Scissors!'
 		puts 'How difficult do you want it?! (0 - 10)'
 		@difficulty = gets.strip.to_i
 	end
