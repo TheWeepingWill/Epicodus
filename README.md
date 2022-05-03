@@ -3,40 +3,43 @@
    by Epicodus' LearnHowTo Ruby on Rails track
 
 ## Week One: TDD With Ruby 
-   
+   ### Installation instructions 
+   `git clone https://github.com/TheWeepingWill/Epicodus.git` 
+
+   `bundle install`
 
 ## Monday 
 
-### PingPong
+   ### PingPong
 
-### LeetSpeak
+   ### LeetSpeak
 
-### QueenAttack
+   ### QueenAttack
 
-### ClockAngle
+   ### ClockAngle
 
 ## Tuesday
 
-### ScrabbleScore
+   ### ScrabbleScore
 
-### NumbersToWords
+   ### NumbersToWords
 
 ## Wednesday
 
-### RockPaperScissors
+  ### RockPaperScissors
 
-### FindAndReplace
+  ### FindAndReplace
 
-### Palindrome
+  ### Palindrome
 
 ## Thursday 
 
-### PrimeSifting
+  ### PrimeSifting
 
-### CoinCombinations
+  ### CoinCombinations
 
-### Allergies
+  ### Allergies
 
-### RubyProjectCreator
+  ### RubyProjectCreator
 
 ## Friday

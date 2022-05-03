@@ -25,4 +25,4 @@ puts "Enter a number"
 
 number = gets.strip.to_i
 
-number.primes
+puts number.primes.each 
