@@ -21,7 +21,7 @@
    4: Check the Project list below to see if there are any specific instructions 
       for the program you are going to run 
 
-      A: If there are follow the instructions
+      A: If there are specific instructions follow those instructions
 
       B: If not then continue to step 5
 
