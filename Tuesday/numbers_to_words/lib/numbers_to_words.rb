@@ -68,8 +68,8 @@ end
 
 
 
-
-puts "Enter your number here!"
+puts "Welcome to numbers to words!"
+puts "Enter your number up to 999 trillion here!"
 
 number = gets.strip.to_i 
 

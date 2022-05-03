@@ -18,8 +18,9 @@ class String
 
 end
 
-puts "Input a letter or word"
-input = gets.strip.downcase.to_s.squeeze
+puts "Welcome to Scrabble Score!"
+puts "Input any letter or word"
+input = gets.strip.downcase.to_s
 
-input.scrabble
+puts "The score for #{input} is #{input.scrabble}"
 
