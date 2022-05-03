@@ -8,6 +8,17 @@
 
    `bundle install`
 
+   ### User Instructions
+   All projects excepting "Ruby Project Creator" are run in
+   a universal fashion.
+
+   1: Cd into the directory of the desired day 
+   2: Cd into the directory of the desired project
+   3: Run the command `ruby lib/projectname.rb`
+
+   This will prompt a basic user interface that will offer a brief 
+   description of the project. Then demonstrate functionality. 
+
 ## Monday 
 
    ### PingPong
