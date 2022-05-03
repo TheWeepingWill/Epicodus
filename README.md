@@ -12,14 +12,20 @@
    `bundle install`
 
    ### User Instructions
-   All projects excepting "Ruby Project Creator" are run in
-   universal fashion
+   Most Projects follow a universal pattern  
 
    1: Cd into the directory of the desired day 
 
    2: Cd into the directory of the desired project
 
-   3: Run the command `ruby lib/projectname.rb`
+   3: Check the Project list below to see if there are any special instructions 
+      for the program you are going to run. 
+
+      A: If there are follow the instructions
+
+      B: If not then continue to step 4
+
+   4: Run the command `ruby lib/projectname.rb`
 
    This will prompt a basic user interface that will offer a brief 
    description of the project then demonstrate functionality. 
