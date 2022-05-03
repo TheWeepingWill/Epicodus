@@ -13,7 +13,9 @@
    a universal fashion.
 
    1: Cd into the directory of the desired day 
+
    2: Cd into the directory of the desired project
+   
    3: Run the command `ruby lib/projectname.rb`
 
    This will prompt a basic user interface that will offer a brief 
