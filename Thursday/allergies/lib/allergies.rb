@@ -1,6 +1,4 @@
-
-
-
+# frozen_string_literal: true 
 def allergies(total_score)
 	if total_score > 255 || total_score < 1 then return "This is an invalid number please choose a number between 1 and 255"
 	end

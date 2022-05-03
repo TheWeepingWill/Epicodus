@@ -9,25 +9,25 @@
 
    `cd Epicodus` 
 
-   `bundle install`
-
    ### User Instructions
    Most Projects follow a universal pattern  
 
-   1: Cd into the directory of the desired day 
+   1: Cd into the directory of the desired day. Example: `cd Monday`
 
-   2: Cd into the directory of the desired project
+   2: Cd into the directory of the desired project. Example: `cd ping_pong`
 
-   3: Check the Project list below to see if there are any specific instructions 
+   3: Run `bundle install`
+
+   4: Check the Project list below to see if there are any specific instructions 
       for the program you are going to run 
 
       A: If there are follow the instructions
 
-      B: If not then continue to step 4
+      B: If not then continue to step 5
 
-   4: Run the command `ruby lib/projectname.rb`
+   5: Run the command `ruby lib/projectname.rb`
 
-   This will prompt a basic user interface that will demonstrate functionality. 
+   This will prompt a basic user interface that will demonstrate functionality 
 
    A comprehenive list of Days and their subdirectories are below
 

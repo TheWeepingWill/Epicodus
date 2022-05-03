@@ -1,3 +1,4 @@
+# frozen_string_literal: true 
 require_relative 'spec_helper'
 require '/Users/theweepingwill/repos/ping_pong/ping_pong.rb'
 require 'rack/test'

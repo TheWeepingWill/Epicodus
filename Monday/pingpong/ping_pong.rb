@@ -1,3 +1,4 @@
+# frozen_string_literal: true 
 def ping_pong(input)
 
 	# ping_pong_starter = gets.chomp.to_i

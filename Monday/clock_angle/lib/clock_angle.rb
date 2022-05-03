@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true 
 #HOUR METHODS
 
 #Takes a string of time and processes to get an accurate float
