@@ -14,4 +14,8 @@ RSpec.describe "Find_and_replace" do
 	it "replaces all occurances of a given word, partial or whole word" do 
 		expect("I am walking my cat to the cathedral".find_and_replace("cat", "dog")).to eq("I am walking my dog to the doghedral")
 	end
+	
+	it "works on a file" do 
+
+	end
 end

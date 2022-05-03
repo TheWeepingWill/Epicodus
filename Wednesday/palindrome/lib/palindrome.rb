@@ -3,14 +3,19 @@ class String
 		self.downcase == self.downcase.reverse 
 	end
 	def hard_palindrome?
-		string_array = self.split("")
-		palindrome_array = []
+
+		
+		palindrome_array = self.split("")
 		reverse_array = []
-		until string_array == []
-			  palindrome_array.unshift(string_array[-1])
-		      reverse_array << string_array.pop 
-		  end
-		  reverse_array.join("") == palindrome_array.join("")
+
+
+		palindrome_array.each do |letter|
+			reverse_array.unshift(letter) 
+		end
+
+
+
+		reverse_array.join("") == palindrome_array.join("")
 	end
 end
 

@@ -1,6 +1,9 @@
 # Epicodus
+   This is a Directory created from the challenges and problems posed
+   by Epicodus' LearnHowTo Ruby on Rails track
 
 ## Week One: TDD With Ruby 
+   
 
 ## Monday 
 
@@ -22,6 +25,18 @@
 
 ### RockPaperScissors
 
+### FindAndReplace
+
+### Palindrome
+
 ## Thursday 
+
+### PrimeSifting
+
+### CoinCombinations
+
+### Allergies
+
+### RubyProjectCreator
 
 ## Friday
