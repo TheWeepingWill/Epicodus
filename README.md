@@ -18,8 +18,8 @@
 
    2: Cd into the directory of the desired project
 
-   3: Check the Project list below to see if there are any special instructions 
-      for the program you are going to run. 
+   3: Check the Project list below to see if there are any specific instructions 
+      for the program you are going to run 
 
       A: If there are follow the instructions
 
@@ -27,8 +27,7 @@
 
    4: Run the command `ruby lib/projectname.rb`
 
-   This will prompt a basic user interface that will offer a brief 
-   description of the project then demonstrate functionality. 
+   This will prompt a basic user interface that will demonstrate functionality. 
 
    A comprehenive list of Days and their subdirectories are below
 
