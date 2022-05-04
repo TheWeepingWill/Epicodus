@@ -21,3 +21,22 @@ end
 class File
 	include FindandReplace
 end
+
+
+puts "Welcome to Find and Replace"
+
+puts "We'll need a word or phrase to work with 
+Put in anything that comes to mind ;)"
+
+word_or_phrase = gets.strip.downcase
+
+puts "Great now we need to you to give TWO inputs 
+FIRST the letter or word you would like replaced from your word or phrase
+SECOND is whatever you would like to replace your first input with"
+
+ arguments = gets.strip.downcase.split(" ")
+
+ argument1 = arguments[0]
+ argument2 = arguments[1]
+
+ puts word_or_phrase.find_and_replace(argument1, argument2)

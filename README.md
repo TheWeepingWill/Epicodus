@@ -50,6 +50,8 @@
 ## Wednesday
 
   ### RockPaperScissors
+    Special Instructions:
+    Run ruby lib/rps_game.rb to run the correct file
 
   ### FindAndReplace
 
